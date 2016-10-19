@@ -2,16 +2,12 @@ var wins = 0;
 var numberGuesses = 6;
 //var pic = getImage("assets/images/characters");
 
-function changeGuesses(numberGuesses) {
+function changeGuesses() {
 	while (numberGuesses > -1 ) {
-	    numberGuesses--;
-	    if (numberGuesses = 0) {
-	    	alert("Game over!");
-
-	    } 
-	}
-	return(numberGuesses);
-}
+	    numberGuesses--;    
+	};
+	
+};
 
 html1 = wins--;
 html2 = numberGuesses;
@@ -62,14 +58,15 @@ document.onkeyup=function(event) {
 			// var letterGuesses = [] 
 			html8 = '<span>Letters guessed: </span>' + y;
 			document.querySelector(".letters-guessed").innerHTML = html8;
-				if (numberGuesses == 2) {
-					changeGuesses(numberGuesses);
+				changeGuesses();
 					document.querySelector(".number-guesses").innerHTML = html2--;
 				}
-		} /*else if (html2 == 0) {
+		}; 
+
+		/*else if (html2 == 0) {
 			alert("Game over!");
 		}*/
-	};
+
 			/*if ((event.keyCode == 67) && (event.keyCode == 72) && (event.keyCode == 85) && (event.keyCode == 75) && (event.keyCode == 89)) {
 				alert('You win!');
 				var zach = getImage("space/beetleship");
