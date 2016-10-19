@@ -1,5 +1,5 @@
 var wins = 0;
-var numberGuesses = 2;
+var numberGuesses = 6;
 //var pic = getImage("assets/images/characters");
 
 function changeGuesses(numberGuesses) {
