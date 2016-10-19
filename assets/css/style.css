@@ -65,12 +65,15 @@ h1 {
 	border-width: 2px;
 	border-color: black;
 	background-image: url("../images/paintsplotch.png");
+	background-repeat: no-repeat;
 }
 
 .game-holder {
 	border-style: double;
 	border-width: 2px;
 	border-color: black;
+	/*width: 50%*/
+	margin: 0 0;
 	float: left;
 	display: inline-block;
 	text-align: center;
@@ -81,7 +84,9 @@ h1 {
 	border-style: double;
 	border-width: 2px;
 	border-color: black;
-	float: right;
+	/*width: 50%*/
+	margin: 0 0;
+	float: left;
 	display: inline-block;
 }
 
